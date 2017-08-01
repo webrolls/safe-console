@@ -1,11 +1,12 @@
 
-import Console from './src/index.js';
+import SafeConsole from './src/index.js';
 
-var c = new Console();
+var c = new SafeConsole();
 
+var temp = 'te,['
+c.log('sadf ==> '+temp);
 
-console.log('inside exmaple.js');
+ 
 
-//window.console = console;
-
-//console.log();
+ 
+ 
