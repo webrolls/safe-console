@@ -1,7 +1,8 @@
 export default class {
    	
    	constructor() {
-   		// use date
+		   this.arr = [];
+		   console.log(' <==> ',console);
   	}
 
  	assert() {}
@@ -50,8 +51,6 @@ export default class {
 
 	warn() {}
 
-
-
 	safeLog(obj, arr) {
 
 		if(arr) {
@@ -73,8 +72,9 @@ export default class {
  	}
 
  	testing(str) {
- 		console.log('safe=> '+str);
- 	}
+		this.arr.push(str);
+		window.arr = this.arr;
+	}
 
 
 };

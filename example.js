@@ -8,11 +8,9 @@ var temp = {
 	b: null
 };
  
-	c.safeLog(temp);	
-	console.log(temp); 
+c.safeLog(temp);	
+console.log('Print temp Object from console log() => ' , temp); 
 
-	c.testing(function(){
-		console.log('======>',temp.c);
-	});
+c.testing('store the log global object using console testing method! ');
 
  
