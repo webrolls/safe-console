@@ -4,7 +4,7 @@ import SafeConsole from './src/index.js';
 var c = new SafeConsole();
 
 var temp = {
-	a: 'kaleem',
+	a: 'stringValue',
 	b: null
 };
  
